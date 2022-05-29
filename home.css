@@ -99,11 +99,11 @@ nav {
     display: inline-block;
     margin: 20px;
     border-radius: 20px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(255, 106, 0);
     position: relative;
     cursor: pointer;
-    box-shadow: inset -5px -5px 12px white,
-                inset -5px -5px 12px rgb(212, 212, 212);
+    box-shadow: inset -5px -5px 12px rgb(255, 64, 0),
+                inset -5px -5px 12px rgb(255, 153, 0);
 }
 
 .sec1-img .image{
@@ -120,6 +120,7 @@ nav {
 .sec1-img h4{
     margin: 15px;
     font-family: 'Tiro Bangla', serif;
+    color: white;
 }
 
 .sec1-img a{
