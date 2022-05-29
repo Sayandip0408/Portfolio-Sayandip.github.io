@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#profile-btn {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 2.5vw;
+    background-image: url('/Profile_img.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+#menu-bar-mobile-btn {
+    display: none;
+}
+
+.nav-btn {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    font-size: 17px;
+    border: 2px solid white;
+    font-family: 'Tiro Bangla', serif;
+}
+
+.nav-btn:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+#home-btn{
+    right: 270px;
+}
+
+#portfolio-btn{
+    right: 150px;
+}
+
+#contact-btn{
+    right: 30px;
+}
+
+.category{
+    margin-left: 2.5vw;
+    margin-top: 50px;
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Cormorant Garamond', serif; */
+}
+
+#sec1{
+    height: 300px;
+    /* border-bottom: 1px solid black;
+    border-top: 1px solid black; */
+    margin: auto;
+    margin-top: 10px;
+    width: 95vw;
+    border-radius: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    box-shadow: inset -5px -5px 12px white,
+                inset -5px -5px 12px rgb(49, 49, 49);
+}
+
+.sec1-img{
+    height: 250px;
+    width: 350px;
+    border: 1px solid rgb(224, 224, 224);
+    display: inline-block;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset -5px -5px 12px white,
+                inset -5px -5px 12px rgb(212, 212, 212);
+}
+
+.sec1-img .image{
+    height: 200px;
+    /* border: 1px solid black; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* background-image: url('/IMG_20220316_101519.jpeg'); */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.sec1-img h4{
+    margin: 15px;
+    font-family: 'Tiro Bangla', serif;
+}
+
+.sec1-img a{
+    position: absolute;
+    top: 215px;
+    right: 10px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    color: blue;
+}
+
+.see-more{
+    filter: blur(8px);
+}
+
+footer{
+    height: 150px;
+    margin-top: 20px;
+}
+
+footer h1{
+    text-align: center;
+    color: #1A1E23;
+    font-family: 'Dancing Script', cursive;
+}
+.social-footer{
+    margin: 10px 0;
+    text-align: center;
+}
+.footer-icon{
+    height: 40px;
+    width: 40px;
+    border: 0.4px solid gray;
+    border-radius: 50%;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+.copyright{
+    background-color: #1A1E23;
+    height: 55px;
+    padding: 15px;
+}
+.copyright h4{
+    color: white;
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+    .nav-btn{
+        display: none;
+    }
+    #menu-bar-mobile-btn{
+        display: block;
+        position: absolute;
+        right: 20px;
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        background-color: white;
+        border: none;
+    }
+}
