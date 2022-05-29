@@ -30,7 +30,7 @@ nav {
     width: 70px;
     border-radius: 50%;
     margin-left: 2.5vw;
-    background-image: url('/Profile_img.jpeg');
+    background-image: url('Profile_img.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
